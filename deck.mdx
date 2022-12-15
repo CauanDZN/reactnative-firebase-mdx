@@ -1,0 +1,148 @@
+import { Image, Notes, Head } from "mdx-deck";
+import { CodeSurferColumns, Step } from "code-surfer";
+
+import {
+  vsDark as classTheme,
+  nightOwl as hooksTheme,
+} from "@code-surfer/themes";
+
+import GreetingLoader from "./src/greeting-loader";
+
+export const theme = classTheme;
+
+<Head>
+  <title>Palestra sobre React Native - Firebase</title>
+</Head>
+
+Implementação do Firebase em projetos RN
+
+Construí esse slide com [Code Surfer](https://codesurfer.pomb.us/)
+
+[Cauan Victor](https://github.com/CauanDZN)
+
+---
+
+<CodeSurferColumns sizes={[1, 2]}>
+
+<Step subtitle="Aqui está todo o código de login e cadastro! Calma, que é mais fácil do que você imagina!">
+
+<GreetingLoader />
+
+```jsx file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Nós vamos primeiro importar o Firebase e seus modulos de autenticação">
+    
+<GreetingLoader />
+
+```jsx 2 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Em seguida, criar variáveis de estado para nossos inputs!">
+    
+<GreetingLoader />
+
+```jsx 6,7 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="O useState observa e aplica alterações em variáveis!">
+    
+<GreetingLoader />
+
+```jsx 46,47,48,49,50,52,53,54,55,56,57 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Vamos criar nossa função de cadastro!">
+    
+<GreetingLoader />
+
+```jsx 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 file=./src/greeting.1.1.js
+```
+
+</Step>
+  
+<Step subtitle="Puxamos a função de auth e createuser do próprio auth!">
+    
+<GreetingLoader />
+
+```jsx 10,11 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Se tudo der certo, 'babau'">
+    
+<GreetingLoader />
+
+```jsx 12,13,14 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Se não der certo, você faz o tratamento de erros.">
+    
+<GreetingLoader />
+
+```jsx 15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Vamos criar nossa função de login!">
+    
+<GreetingLoader />
+
+```jsx 32,33,34,35,36,37,38,39,40,41 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Chamamos a função de auth e, agora, a função de signin que vem do próprio auth.">
+    
+<GreetingLoader />
+
+```jsx 33,34 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Se tudo der certo, o login é realizado!">
+    
+<GreetingLoader />
+
+```jsx 35,36,37 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Se não der certo, o tratamento de erros é realizado.">
+    
+<GreetingLoader />
+
+```jsx 38,39,40,41 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+<Step subtitle="Cada botão chama a sua função! :)">
+    
+<GreetingLoader />
+
+```jsx 59,60 file=./src/greeting.1.1.js
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+[Code Surfer Docs](https://codesurfer.pomb.us/)
